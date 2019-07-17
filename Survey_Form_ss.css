@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+html,
+body {
+	font-family: "open sans", serif;
+	text-align: center;
+	background-color: #19b5b5;
+	min-width: 320px;
+}
+
+#description {
+	margin-top: 0px;
+}
+
+#survey-form {
+	width: 80%;
+	max-width: 900px;
+	margin: auto;
+	border-radius: 10px;
+	background-color: #d4f4f4;
+	padding: 15px;
+	line-height: 30px;
+}
+
+.rowtab {
+	margin: 10px;
+	padding: 20px;
+}
+
+.labels {
+	display: inline-block;
+	text-align: right;
+	width: 40%;
+	padding: 5px;
+	vertical-align: top;
+}
+
+.rightTab {
+	display: inline-block;
+	text-align: left;
+	width: 50%;
+	vertical-align: top;
+}
+
+.input-field, .dropdown {
+	height: 25px;
+	width: 300px;
+	border: 1px solid black;
+	padding:5px;
+	margin-left:10px;
+	
+}
+
+.dropdown{
+	height:35px;
+	width:250px;
+}
+
+.radio, .check{
+	position:relative;
+	left:-43px;
+	display:block;
+	margin-left:10px;
+	padding-bottom:5px;
+}
+
+#comment{
+	overflow:auto;
+	height: 40px;
+}
+
+#button{
+	background-color:#1EE5E5;
+	height: 25px;
+	width:100px;
+	border:0px solid black;
+	border-radius:3px;
+}
+
+@media screen and (max-width: 833px) {
+	body{
+		font-size:12px;
+	}
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+	body{
+		font-size:10px;
+	}
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+}
